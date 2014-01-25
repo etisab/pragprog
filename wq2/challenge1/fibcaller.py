@@ -1,4 +1,4 @@
-//quick script to demonstrate fibonacci generator in fib.py
+#quick script to demonstrate fibonacci generator in fib.py
 import fib, sys
 
 try:
