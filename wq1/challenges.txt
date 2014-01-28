@@ -1,0 +1,14 @@
+Jan 17, 2014
+---
+Reverse a string, 
+1) in place
+2) by using a stack
+---
+Write a function that accepts a string of parentheses, and outputs True if they are correctly nested. For example: 
+checkNesting( “(()())” ) → true
+Now write a function that accepts both () and {}. A sequence like {({})} is valid. You must decide if { ( } ) is valid also.
+---
+Write a function that accepts 2 parameters, size and density, between 0 and 1, which generates a random graph. For example: genGraph(0.60, 0.35) might generate a graph around 60% of the maximum possible size (max decided by you), with 35% of possible edges existing.
+
+Now implement BFS on that graph, or Dijkstra’s if you chose to have weighted edges.
+---

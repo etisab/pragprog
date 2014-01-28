@@ -1,0 +1,28 @@
+Jan 24, 2014 
+---
+Implement a function which returns the nth Fibonacci number,
+1. Using an iterative approach
+2. Using a recursive approach
+3. Using a generator (remember: not all languages allow for generators)
+
+For example, fib(5) → 3
+
+* What are the space and time complexities of 1 and 2?
+* How might using a generator be useful?
+---
+Design and implement an algorithm that, given some amount of money (in US dollars), will make change using the smallest number of coins, 
+1. Using an iterative approach (hint: be greedy)
+2. Using a recursive approach
+3. Using a dynamic programming approach
+
+For example: makeChange(24.57) → 2 quarters, 1 nickel, 2 pennies.
+
+* Does the greedy approach work for other choices of coins?
+* What advantage does a dynamic solution give? 
+---
+Design a data structure which minimally contains the values *left, *right, data, and use it to implement a binary tree. Include some way to instantiate a tree so that each node has a unique value for data. 
+
+Next, write a method that accepts a binary tree as input, and performs a depth-first in-order traversal on the nodes, listing them in the order in which they are visited.
+
+* What ordering would the output have if a breadth-first in-order traversal was done instead?
+* What about a depth-first, pre-order or post-order traversal?
