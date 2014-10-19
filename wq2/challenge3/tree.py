@@ -1,7 +1,13 @@
-#
-#toy script to explore trees.
-#defines a node object with left and right pointers to form a tree, and implements in-order (left to right) traversal (ie, BST ascending order).
-#branches of the tree are specified by giving paths from the root node.
+// Design a data structure which minimally contains the values *left, *right, data, and use it to implement a binary tree.
+//Include some way to instantiate a tree so that each node has a unique value for data. 
+//
+//Next, write a method that accepts a binary tree as input, and performs a depth-first in-order traversal on the nodes,
+//listing them in the order in which they are visited.
+
+
+
+//defines a node object with left and right pointers to form a tree, and implements in-order (left to right) traversal (ie, BST ascending order).
+//branches of the tree are specified by giving paths from the root node.
 
 import random
 random.seed(1)

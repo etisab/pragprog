@@ -18,6 +18,7 @@ Design and implement an algorithm that, given some amount of money (in US dollar
 For example: makeChange(24.57) → 2 quarters, 1 nickel, 2 pennies.
 
 * Does the greedy approach work for other choices of coins?
+* Name two potential issues the recursive implementation might have.
 * What advantage does a dynamic solution give? 
 ---
 Design a data structure which minimally contains the values *left, *right, data, and use it to implement a binary tree. Include some way to instantiate a tree so that each node has a unique value for data. 

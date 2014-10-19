@@ -1,7 +1,12 @@
 /*
-Demo program to test for proper nesting of parentheses, brackets, etc.
-Accepts 2 args: the string to test, an arbitrary set of 'opening' and 'closing' characters
+challenge: write a function that accepts a string of parentheses, and outputs True if they are correctly nested. 
+For example: 
+checkNesting( “(()())” ) → true
 
+Now write a function that accepts both () and {}.
+A sequence like {({})} is valid. You must decide if { ( } ) is valid also.
+
+Accepts 2 args: the string to test, an arbitrary set of 'opening' and 'closing' characters
 to compile: $ g++ ./pragprog_L2.cpp -o L2.out
 
 some example arguments to try:
@@ -29,9 +34,10 @@ bool checkNesting(string input, string bracketSet)
 	{
 		counts[i] = 0;
 	}
-
+	
 	for(unsigned int i = 0; i < input.size(); i++)
 	{
+	// why didn't I use a hash table here?
 		for(unsigned int j = 0; j < bracketSet.size(); j++)
 		{			
 			if(input[i] == bracketSet[j]) {

@@ -1,0 +1,5 @@
+This code can use major improvements:
+UnweightedGraph density param should be an integer specifying number of nodes
+Nodes should be implemented with generics (instead of ints)
+the edge list doesn't allow a singleton connected component to exist?
+Improve these then implement Dijkstra's
