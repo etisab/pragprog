@@ -1,7 +1,9 @@
+;recursive solution to stair-stepping question
+
 (defun count-steps (N)
     (cond 
         ((= N 3) 4 ) 
-        ((= N 2) 3 )
+        ((= N 2) 2 )
         ((= N 1) 1 )
         ((<= N 0) 0 )
 	(t (+ (count-steps (- N 3)) (count-steps (- N 2)) (count-steps (- N 1))))
