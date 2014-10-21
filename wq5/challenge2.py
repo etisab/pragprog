@@ -6,4 +6,4 @@ from math import factorial as fac
 
 def numGridPaths(n):
     n = 2*n
-    return fac(n)/(fac(2)*fac(n/2-1))
+    return fac(n)/(fac(n/2)*fac(n/2))
