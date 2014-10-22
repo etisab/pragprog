@@ -1,7 +1,0 @@
-1. Write an algorithm such that if an element in an NxN matrix is 0, its’ entire row and column are 0.
-Give the time and space complexities
-
-2. Write a method to return all subsets of a set (also known as a Superset)
-Give the space and time complexities - what are the lower bounds?
-
-3. Design the data structures for an online ebook reading system

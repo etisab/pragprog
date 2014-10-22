@@ -1,0 +1,115 @@
+Jan 17, 2014
+
+1. Reverse a string
+	a. in place
+	b. by using a stack
+
+2. Write a function that accepts a string of parentheses, and outputs True if they are correctly nested. For example: 
+checkNesting( “(()())” ) → true
+Now write a function that accepts both () and {}. A sequence like {({})} is valid. You must decide if { ( } ) is valid also.
+
+3. Write a function that accepts 2 parameters, size and density, between 0 and 1, which generates a random graph. For example: genGraph(0.60, 0.35) might generate a graph around 60% of the maximum possible size (max decided by you), with 35% of possible edges existing.
+
+Now implement BFS on that graph, or Dijkstra’s if you chose to have weighted edges.
+------------------------------
+
+Jan 24, 2014 
+
+1. Implement a function which returns the nth Fibonacci number,
+	a. Using an iterative approach
+	b. Using a recursive approach
+	c. Using a generator (remember: not all languages allow for generators)
+
+For example, fib(5) → 3
+
+* What are the space and time complexities of 1 and 2?
+* How might using a generator be useful?
+
+2. Design and implement an algorithm that, given some amount of money (in US dollars), will make change using the smallest number of coins, 
+	a. Using an iterative approach (hint: be greedy)
+	b. Using a recursive approach
+	c. Using a dynamic programming approach
+
+For example: makeChange(24.57) → 2 quarters, 1 nickel, 2 pennies.
+
+* Does the greedy approach work for other choices of coins?
+* Name two potential issues the recursive implementation might have.
+* What advantage does a dynamic solution give? 
+
+3. Design a data structure which minimally contains the values *left, *right, data, and use it to implement a binary tree. Include some way to instantiate a tree so that each node has a unique value for data. 
+
+Next, write a method that accepts a binary tree as input, and performs a depth-first in-order traversal on the nodes, listing them in the order in which they are visited.
+
+* What ordering would the output have if a breadth-first in-order traversal was done instead?
+* What about a depth-first, pre-order or post-order traversal?
+------------------------------
+
+Jan 31, 2014
+
+GITHUB SETUP
+visit http://try.github.io/ and complete the online tutorial
+visit https://github.com and register an account
+Github bootcamp step 1: Set up Git
+work through the command line, or try their graphical tool
+Github bootcamp step 2: Create a repository
+Update your first repository with your first snippet of code
+Done!
+
+1. “Write a function to determine the number of bits you would need to flip to convert integer A to integer B. EXAMPLE:
+input: 29 (or: 11101), 2 (or: 01111) 
+output: 2
+
+2. “Implement a method to perform basic string compression using the counts of repeated characters. For example, the string “aabcccccaaa” would become “a2b1c5a3”. If the “compressed” string would not become smaller than the original string, your method should return the original string.”
+------------------------------
+
+February 14, 2014
+
+1. Reverse a string iteratively. Reverse a string recursively.
+Can you do both in O(1) space? How might language choice affect space complexity?. 
+
+2. Data Structure Question
+Implement a stack and a queue using only built in functions.
+
+3. OOP Question
+Write a class to handle the basics of a two-player game of Tic-Tac-Toe. 
+Go to this website for the specifications: http://programmingbydoing.com/a/tic-tac-toe-oop.html
+------------------------------
+
+February 21, 2014
+
+1. Write a function which accepts 2 strings, and returns true if one string is a permutation of the other.
+
+2. http://projecteuler.net/problem=15
+implement a function which accepts an integer n, and prints out the number of possible paths on an nxn grid
+
+3. A child is running up a staircase with n steps, and can hop either 1, 2, or 3 steps at a time.
+Implement a recursive method which counts all the possible ways the child can run up the stairs
+what are the big-O, both for time and space? 
+Now implement a version using dynamic programming techniques.
+what are the big-O, both for time and space? 
+------------------------------
+
+February 28, 2014
+
+1. Write an algorithm such that if an element in an NxN matrix is 0, its’ entire row and column are 0.
+Give the time and space complexities
+
+2. Write a method to return all subsets of a set (also known as a Superset)
+Give the space and time complexities - what are the lower bounds?
+
+3. Design the data structures for an online ebook reading system
+------------------------------
+
+March 7, 2014
+
+1. Implement a max-heap using a dynamically allocated array.
+include implementations of peek, delete, add.
+
+* or pop, peek, add, etc -- why choose 1 over another?
+* what would change in order for it to be a min-heap?
+	-implement a min-heap
+* Name 2 concrete examples where using a heap data structure allows a lower complexity than other solutions to a problem
+* What are the time complexities of the 3 heap methods?
+* What is the time complexity of heap construction?
+* does it depend on the order in which elements are given?
+	Check out Wikipedia’s optimal solution for heap construction
