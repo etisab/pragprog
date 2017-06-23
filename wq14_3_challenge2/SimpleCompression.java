@@ -19,9 +19,9 @@ public class SimpleCompression {
 
 		int count = 1;			
 		for(int i = 1; i < s.length(); i++) {
-			if(s.charAt(i-1) == s.charAt(i)) {	//if we encounter the same character repeatedly, increment counter
+			if(s.charAt(i-1) == s.charAt(i)) { //if we encounter the same character repeatedly, increment counter
 				count += 1;
-			} else {							//otherwise reset the current sequence and counter
+			} else { //otherwise reset the current sequence and counter
 				compressed.append(s.charAt(i-1) + Integer.toString(count));
 				count = 1;
 			}
